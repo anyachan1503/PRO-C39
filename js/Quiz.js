@@ -54,7 +54,7 @@ class Quiz {
         var correctAns = "2";
 //check the condition whether player answer and correct ans are equal
     console.log("correct="+correctAns );
-    console.log("allcontestants="+allContestants[plr].ans);
+    console.log("allcontestants="+allContestants[plr].answer);
        if(allContestants[plr].ans === correctAns){
         fill("green")     
       } 
